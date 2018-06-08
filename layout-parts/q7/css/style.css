@@ -1,5 +1,142 @@
 @charset "UTF-8";
-
-/* 回答はここに書いてね */
-
-/* 回答はここに書いてね */
+.box {
+  font-size: 0;
+  text-align: center;
+}
+.q7_box {
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    vertical-align: middle;
+}
+.inputtext {
+  border-radius: 5px;
+  border: solid thin #00bcd4;
+  padding: 5px;
+  font-size: 16px;
+}
+.inputtext::-webkit-input-placeholder {
+  color: #00bcd4;
+}
+.textarea {
+  resize: none;
+  border-radius: 5px;
+  border: solid thin #00bcd4;
+  height: 40px;
+  padding: 5px;
+  font-size: 16px;
+}
+.text-radio {
+  cursor: pointer;
+  position: relative;
+  padding: 3px 3px 3px 20px;
+  display: inline-block;
+}
+.text-radio:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  content: "" ;
+}
+.radio-btn {
+  display: none;
+}
+.radio-btn:checked + .text-radio:after {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  cursor: pointer;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: "" ;
+}
+.check-btn {
+  display: none;
+}
+.box-check {
+  cursor: pointer;
+}
+.text-checkbox {
+  position: relative;
+  background-color: #fff;
+  display: inline-block;
+  padding: 3px 3px 3px 22px;
+}
+.text-checkbox:before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+.check-btn:checked + .text-checkbox:after {
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 3px;
+  width: 13px;
+  height: 5px;
+  border-bottom: 2px solid #00BCD4;
+  border-left: 2px solid #00BCD4;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.q7_box_select {
+  position: relative;
+  background-color: #fff;
+}
+.q7_box_select:before {
+  position: absolute;
+  top: 7px;
+  right: 9px;
+  width: 8px;
+  height: 8px;
+  border-bottom: 2px solid #ccc;
+  border-left: 2px solid #ccc;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  content: "";
+  }
+.text-select-init {
+  -webkit-appearance: none;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  outline: none;
+  appearance: none;
+}
+.text-select {
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px 30px 5px 5px;
+  font-size: 14px;
+}
+.text-button {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #00BCD4;
+  border-radius: 5px;
+  color: #00BCD4;
+  font-size: 16px;
+}
+.text-button:active {
+  background-color: #00BCD4;
+  color: #fff;
+  content: "";
+}

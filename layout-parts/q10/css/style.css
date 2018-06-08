@@ -1,5 +1,122 @@
 @charset "UTF-8";
-
-/* 回答はここに書いてね */
-
-/* 回答はここに書いてね */
+.q10 {
+  width: 700px;
+  margin: 0 auto;
+  background-color: #ecf1f2;
+  padding: 20px;
+}
+.q10_title {
+  position: relative;
+  margin-bottom: 20px;
+}
+.q10_title:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background-color: #ccc;
+  width: 100%;
+  height: 1px;
+  content: "";
+}
+.q10_title-text {
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  padding-right: 10px;
+  background-color: #ECF1F2;
+}
+.q10_main {
+  width: 300px;
+  float: left;
+}
+.clearfix {
+  padding: 0;
+  margin-top: 20px;
+}
+.clearfix:first-child {
+  margin-top: 0;
+}
+.q10_input {
+  border-radius: 3px;
+  border: none;
+  background-color: #fff;
+  font-size: 12px;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.q10_main-items-title {
+  font-size: 16px;
+  line-height: 25px;
+  float: left;
+  text-align: right;
+  width: 100px;
+}
+.q10_main-items-contents {
+  padding: 0;
+  margin: 0;
+  float: right;
+  width: 180px;
+}
+.q10_radio-btn {
+  display: none;
+}
+.q10_radio-btn-text {
+  display: inline-block;
+  position: relative;
+  padding: 3px 3px 3px 20px;
+}
+.q10_radio-btn-text:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: "";
+}
+.q10_radio-btn:checked + .q10_radio-btn-text:after {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00bcd4;
+  border-radius: 50%;
+  content: "";
+}
+.is-required {
+  color: #f00;
+}
+.q10_main-bottom {
+  text-align: right;
+}
+.q10_main-bottom-btn {
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #00bcd4;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 26px;
+  border: none;
+}
+.q10_side {
+  float: right;
+  width: 380px;
+}
+.q10_side-txt {
+  width: 100%;
+  height: 203px;
+  padding: 10px;
+  border-radius: 3px;
+  resize: none;
+  font-size: 12px;
+  box-sizing: border-box;
+  border: none;
+}

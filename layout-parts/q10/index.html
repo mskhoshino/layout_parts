@@ -36,11 +36,63 @@
         ・form
         ・input(type="submit")
         -->
-        <!-- 回答はここに書いてね -->
-
-        <!-- 回答はここに書いてね -->
+        <form class="q10">
+        <div class="q10_title">
+            <p class="q10_title-text">Form Exercise</p>
+        </div>
+        <div class="clearfix">
+        <div class="q10_main">
+        <ul class="q10_main-items">
+            <li class="clearfix">
+                <p class="q10_main-items-title">name
+                <span class="is-required">*</span>
+                </p>
+                <div class="q10_main-items-contents">
+                    <input class="q10_input" type="text" required></input>
+                </div>
+            </li>
+            <li class="clearfix">
+                <p class="q10_main-items-title">Sex</p>
+                <div class="q10_main-items-contents">
+                    <label class="q10_radio">
+                        <input class="q10_radio-btn" type="radio" value="male" name="radio">
+                        <span class="q10_radio-btn-text">male
+                        </span>
+                    </label>
+                    <label class="q10_radio">
+                        <input class="q10_radio-btn" type="radio" value="male" name="radio">
+                        <span class="q10_radio-btn-text">female
+                        </span>
+                    </label>
+                </div>
+            </li>
+            <li class="clearfix">
+                <p class="q10_main-items-title">Email
+                <span class="is-required">*</span>
+                </p>
+                <div class="q10_main-items-contents">
+                    <input class="q10_input" type="text" placeholder="ex) hoge@gmail.com">
+                </div>
+            </li>
+            <li class="clearfix">
+                <p class="q10_main-items-title">Telephone
+                <div class="q10_main-items-contents">
+                    <input class="q10_input" type="text"
+                    placeholder="ex) 08012345678">
+                </div>
+            <li class="clearfix">
+                <div class="q10_main-bottom">
+                    <input class="q10_main-bottom-btn" type="submit" value="submit">
+                </div>
+            </li>
+        </ul>
+        </div>
+        <div class="q10_side">
+            <textarea class="q10_side-txt" name="q10_5" placeholder="Please fill in the message..."></textarea>
+        </div>
+    </div>
+    </form>
     </div>
 </div>
-
 </body>
 </html>
