@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="format-detection" content="telephone=no">
-    <title>基本レイアウト・パーツ</title>
-    <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout-parts/assets/css/reset.css">
-    <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout-parts/assets/css/base.css">
-    <link rel="stylesheet" href="../assets/css/base.css">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <title>基本レイアウト・パーツ</title>
+  <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout-parts/assets/css/reset.css">
+  <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout-parts/assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<div class="wrapper">
+  <div class="wrapper">
     <h1 class="title">基本レイアウト・パーツ</h1>
 
     <div class="box">
-        <h2 class="headline">
-            <p class="headline__txt">Q10. フォーム</p>
-        </h2>
+      <h2 class="headline">
+        <p class="headline__txt">Q10. フォーム</p>
+      </h2>
 
         <!--
         Webサイトを作る際、コンタクトフォームを実装する機会がとても多くあります。
@@ -36,63 +36,60 @@
         ・form
         ・input(type="submit")
         -->
-        <form class="q10">
+      <form class="q10">
         <div class="q10_title">
-            <p class="q10_title-text">Form Exercise</p>
+          <p class="q10_title-text">Form Exercise</p>
         </div>
         <div class="clearfix">
-        <div class="q10_main">
-        <ul class="q10_main-items">
-            <li class="clearfix">
+          <div class="q10_main">
+            <ul class="q10_main-items">
+              <li class="clearfix">
                 <p class="q10_main-items-title">name
-                <span class="is-required">*</span>
+                  <span class="is-required">*</span>
                 </p>
                 <div class="q10_main-items-contents">
-                    <input class="q10_input" type="text" required></input>
+                  <input class="q10_input" type="text" required name="q10_1">
                 </div>
-            </li>
-            <li class="clearfix">
+              </li>
+              <li class="clearfix">
                 <p class="q10_main-items-title">Sex</p>
                 <div class="q10_main-items-contents">
-                    <label class="q10_radio">
-                        <input class="q10_radio-btn" type="radio" value="male" name="radio">
-                        <span class="q10_radio-btn-text">male
-                        </span>
-                    </label>
-                    <label class="q10_radio">
-                        <input class="q10_radio-btn" type="radio" value="male" name="radio">
-                        <span class="q10_radio-btn-text">female
-                        </span>
-                    </label>
+                  <label class="q10_radio">
+                    <input class="q10_radio-btn" type="radio" value="male" name="radio" name="q10_2">
+                    <span class="q10_radio-btn-text">male</span>
+                  </label>
+                  <label class="q10_radio">
+                    <input class="q10_radio-btn" type="radio" value="male" name="radio" name="q10_2">
+                    <span class="q10_radio-btn-text">female</span>
+                  </label>
                 </div>
-            </li>
-            <li class="clearfix">
+              </li>
+              <li class="clearfix">
                 <p class="q10_main-items-title">Email
-                <span class="is-required">*</span>
+                  <span class="is-required">*</span>
                 </p>
                 <div class="q10_main-items-contents">
-                    <input class="q10_input" type="text" placeholder="ex) hoge@gmail.com">
+                  <input class="q10_input" type="text" placeholder="ex) hoge@gmail.com" required name="q10_3">
                 </div>
-            </li>
-            <li class="clearfix">
+              </li>
+              <li class="clearfix">
                 <p class="q10_main-items-title">Telephone
                 <div class="q10_main-items-contents">
-                    <input class="q10_input" type="text"
-                    placeholder="ex) 08012345678">
+                  <input class="q10_input" type="text" placeholder="ex) 08012345678" name="q10_4">
                 </div>
-            <li class="clearfix">
+              <li class="clearfix">
                 <div class="q10_main-bottom">
-                    <input class="q10_main-bottom-btn" type="submit" value="submit">
+                  <input class="q10_main-bottom-btn" type="submit" value="submit" >
                 </div>
-            </li>
-        </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="q10_side">
+            <textarea class="q10_input q10_side-txt" name="q10_5" placeholder="Please fill in the message..."></textarea>
+          </div>
         </div>
-        <div class="q10_side">
-            <textarea class="q10_side-txt" name="q10_5" placeholder="Please fill in the message..."></textarea>
-        </div>
+      </form>
     </div>
-    </form>
-    </div>
-</div>
+  </div>
 </body>
 </html>

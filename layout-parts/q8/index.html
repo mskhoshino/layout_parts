@@ -16,35 +16,35 @@
 <div class="wrapper">
     <h1 class="title">基本レイアウト・パーツ</h1>
 
-    <div class="box">
-        <h2 class="headline">
-            <p class="headline__txt">Q8. display: table</p>
-        </h2>
-        <!--
-        Webサイトを作る際、「メインコンテンツはウィンドウの横幅に応じて伸縮するけれどサイドバーは常に固定値」といったようなレイアウトをすることが多々あります。
-        そのようなときに、ウィンドウサイズに対して固定のものと可変のものを横に並べるやり方がわからないとレイアウトができません。
-        display: tableを使うことで実現することができるのでやってみましょう。
-        固定と書いてあるdivはウィンドウサイズが変わっても横幅が変化せず、可変と書いてあるdivはウィンドウサイズの変化に合わせて横幅が変化するようにスタイルをあてます。
+  <div class="box">
+    <h2 class="headline">
+      <p class="headline__txt">Q8. display: table</p>
+    </h2>
+    <!--
+    Webサイトを作る際、「メインコンテンツはウィンドウの横幅に応じて伸縮するけれどサイドバーは常に固定値」といったようなレイアウトをすることが多々あります。
+    そのようなときに、ウィンドウサイズに対して固定のものと可変のものを横に並べるやり方がわからないとレイアウトができません。
+    display: tableを使うことで実現することができるのでやってみましょう。
+    固定と書いてあるdivはウィンドウサイズが変わっても横幅が変化せず、可変と書いてあるdivはウィンドウサイズの変化に合わせて横幅が変化するようにスタイルをあてます。
 
-        今回もHTMLは記述してあるので、新たにclassを付与してスタイルをあててください。
-        .q8のdivにスタイルを当てる場合は、.q8に当てるのではなく新たにclassを付与してスタイルをあててください。
+    今回もHTMLは記述してあるので、新たにclassを付与してスタイルをあててください。
+    .q8のdivにスタイルを当てる場合は、.q8に当てるのではなく新たにclassを付与してスタイルをあててください。
 
-        ■この問題で使う大事なプロパティ
-        ・display: table
-        ・display: table-cell
-        -->
-        <!-- 回答はここに書いてね -->
-        <div class="q8-contents">
-            <div class="contents-cell cell-1">固定</div>
-            <div class="contents-cell cell-2">可変</div>
-            <div class="contents-cell cell-3">固定</div>
-        </div>
-        <div class="q8-contents">
-            <div class="contents-cell cell-4">可変</div>
-            <div class="contents-cell cell-5">可変</div>
-            <div class="contents-cell cell-6">固定</div>
-        </div>
+    ■この問題で使う大事なプロパティ
+    ・display: table
+    ・display: table-cell
+    -->
+    <!-- 回答はここに書いてね -->
+    <div class="q8-contents">
+      <div class="contents-cell cell-1">固定</div>
+      <div class="contents-cell cell-2">可変</div>
+      <div class="contents-cell cell-3">固定</div>
     </div>
+    <div class="q8-contents">
+      <div class="contents-cell cell-4">可変</div>
+      <div class="contents-cell cell-5">可変</div>
+      <div class="contents-cell cell-6">固定</div>
+    </div>
+  </div>
 </div>
 
 </body>

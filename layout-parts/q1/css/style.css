@@ -14,24 +14,19 @@
 }*/
 .contents {
   width: 900px;
+  padding: 20px;
   background-color: #eff3f4;
   margin: 0 auto;
-  padding: 20px;
 }
 .contents-box {
-  background-color: #3274ae;
   float: left;
+  background-color: #3274ae;
+  width: 230px;
+  padding: 20px;
   margin-right: 20px;
-  padding: 20px;
-  top: 20px;
-  left: 20px;
 }
-.contents-box-inner{
-  width: 180px;
+.contents-box-text {
   background-color: #eaf4ff;
-  border: solid 10px;
-  border-color: #022336;
   padding: 20px;
-  margin: 0;
+  border: solid 10px #022336;
 }
-/* 回答はここに書いてね */

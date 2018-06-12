@@ -40,6 +40,7 @@
 .q10_input {
   border-radius: 3px;
   border: none;
+  outline: none;
   background-color: #fff;
   font-size: 12px;
   width: 100%;
@@ -105,6 +106,7 @@
   font-size: 16px;
   line-height: 26px;
   border: none;
+  outline: none;
 }
 .q10_side {
   float: right;
