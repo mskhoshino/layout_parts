@@ -25,6 +25,9 @@
   padding: 20px;
   margin-right: 20px;
 }
+.contents-box:last-child {
+  margin-right: 0;
+}
 .contents-box-text {
   background-color: #eaf4ff;
   padding: 20px;

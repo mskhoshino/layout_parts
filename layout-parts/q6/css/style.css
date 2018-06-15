@@ -1,117 +1,80 @@
 @charset "UTF-8";
-.title--sub-common {
-  background-color: #00bcd4;
-  color: #fff;
-  cursor: pointer;
+.btn-small {
   border-radius: 3px;
   display: inline-block;
   font-size: 16px;
   padding: 0 15px;
   line-height: 26px;
+}
+.btn-middle {
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 0 20px;
+  line-height: 32px;
+}
+.btn-large {
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 7px;
+  padding: 0 25px;
+  line-height: 38px;
+}
+.title--sub-common {
+  background-color: #00bcd4;
+  color: #fff;
+  cursor: pointer;
 }
 .title--sub-error{
   background-color: #ff4081;
   color: #fff;
   cursor: pointer;
-  border-radius: 3px;
-  display: inline-block;
-  font-size: 16px;
-  padding: 0 15px;
-  line-height: 26px;
 }
 .title--sub-disabled{
   background-color: #e5e5e5;
   color: #fff;
-  border-radius: 3px;
-  display: inline-block;
-  font-size: 16px;
-  padding: 0 15px;
-  line-height: 26px;
 }
 .title--sub-shadow{
   background-color: #fff;
   color: #222;
   cursor: pointer;
   box-shadow: 0 1px 4px rgba(0,0,0,.12),0 1px 4px rgba(0,0,0,.12);
-  border-radius: 3px;
-  display: inline-block;
-  font-size: 16px;
-  padding: 0 15px;
-  line-height: 26px;
 }
 .title--sub-middle-common {
   background-color: #00bcd4;
   color: #fff;
   cursor: pointer;
-  border-radius: 3px;
-  display: inline-block;
-  font-size: 20px;
-  padding: 0 20px;
-  line-height: 32px;
 }
 .title--sub-middle-error {
   background-color: #ff4081;
   color: #fff;
   cursor: pointer;
-  border-radius: 3px;
-  display: inline-block;
-  font-size: 20px;
-  padding: 0 20px;
-  line-height: 32px;
 }
 .title--sub-middle-disabled {
   background-color: #e5e5e5;
   color: #fff;
-  border-radius: 3px;
-  display: inline-block;
-  font-size: 20px;
-  padding: 0 20px;
-  line-height: 32px;
 }
 .title--sub-middle-shadow {
   background-color: #fff;
   color: #222;
   cursor: pointer;
   box-shadow: 0 1px 4px rgba(0,0,0,.12),0 1px 4px rgba(0,0,0,.12);
-  border-radius: 3px;
-  display: inline-block;
-  font-size: 20px;
-  padding: 0 20px;
-  line-height: 32px;
 }
 .title--sub-large-common {
   background-color: #00bcd4;
   color: #fff;
   cursor: pointer;
-  border-radius: 3px;
-  display: inline-block;
-  font-size: 24px;
-  border-radius: 7px;
-  padding: 0 25px;
-  line-height: 38px;
 }
 
 .title--sub-large-error {
   background-color: #ff4081;
   color: #fff;
   cursor: pointer;
-  border-radius: 3px;
-  display: inline-block;
-  font-size: 24px;
-  border-radius: 7px;
-  padding: 0 25px;
-  line-height: 38px;
 }
-
 .title--sub-large-disabled {
   background-color: #e5e5e5;
   color: #fff;
-  border-radius: 3px;
-  display: inline-block;
-  font-size: 24px;
-  border-radius: 7px;
-  padding: 0 25px;
-  line-height: 38px;
 }
 
 .title--sub-large-shadow {
@@ -119,12 +82,6 @@
   color: #222;
   cursor: pointer;
   box-shadow: 0 1px 4px rgba(0,0,0,.12),0 1px 4px rgba(0,0,0,.12);
-  border-radius: 3px;
-  display: inline-block;
-  font-size: 24px;
-  border-radius: 7px;
-  padding: 0 25px;
-  line-height: 38px;
 }
 .btn {
   margin-left: 10px;
